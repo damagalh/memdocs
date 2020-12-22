@@ -373,6 +373,9 @@ Target Edge for iOS with the following key/value pair, to enable Application Pro
 
 For more information about how to use Edge for iOS and Android and Azure AD Application Proxy in tandem for seamless (and protected) access to on-premises web apps, see [Better together: Intune and Azure Active Directory team up to improve user access](https://techcommunity.microsoft.com/t5/enterprise-mobility-security/better-together-intune-and-azure-active-directory-team-up-to/ba-p/250254). This blog post references the Intune Managed Browser, but the content applies to Edge for iOS and Android as well.
 
+> .[!NOTE]
+> For a better user experience, this setting can also be configured under "Edge configuration settings" as "Application proxy redirection" where **Enable** is the same setting as **true** and **Disable** as **false**.
+
 ### Manage NTLM single sign-on sites
 
 Organizations may require users to authenticate with NTLM to access intranet web sites. By default, users are prompted to enter credentials each time they access a web site that requires NTLM authentication as NTLM credential caching is disabled. 
